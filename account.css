@@ -1,0 +1,315 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    margin-top: 5%;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(174, 188, 219);
+    
+    display: flex; 
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 100%;
+    border: 3px solid #232323;
+    border-radius: 20px;
+    background-color: #232323;
+    flex: 0 0 auto;
+
+}
+
+.dashboard {
+    display: flex;
+    height: 350px;
+    flex: 0 0 auto;
+    padding:50px;
+}
+
+.dashboard-two {
+    display: flex;
+    height: 100%;
+    padding:50px;
+
+}
+
+.AccBalance{
+    font-size: 45px;
+    background-color: white;
+    border: 1px solid white;
+    width: 60%;
+    color: black;
+}
+
+
+ul {
+    list-style-type: none;
+    color: gray;
+}
+
+
+.left-content {
+    color: white;
+    width: 17.5%;
+    padding: 1rem;
+    border-top:1px solid gray;
+    border-right:1px solid gray;
+
+
+}
+
+.middle-content {
+    width: 80%;
+    height: 100%;
+    border-top: 1px solid gray;
+}
+
+
+
+
+
+
+.transactions {
+    width: 25%;
+    padding: 5px;
+    background-color: #232323;
+    border-radius: 10px;
+}
+
+.transBorder {
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #232323;
+    
+}
+
+.contentTransaction  {
+    border-left: 5px solid rgb(174, 188, 219);
+    height:250px;
+    overflow:scroll;
+    overflow-x:hidden;
+}
+
+.contentTransaction > p {
+    margin-left: 10px;
+}
+
+.recent {
+    font-size: 12px;
+    color: beige;
+}
+
+.line {
+    border-top:1px solid gray ;
+    opacity: 30%;
+}
+
+
+h4 {
+    font-weight: 300;
+}
+
+.date {
+    font-size: 12px;
+    color: gray;
+    opacity: 80%;
+}
+
+
+.balance {
+    width: 35%;
+    padding: 30px;
+    border-radius: 30px;
+    background-color: white;
+
+}
+
+.balance-card {
+    padding: 15px;
+    justify-items: center;
+
+
+}
+
+.Deposit {
+    width: 50%;
+    height: 100%;
+    padding: 1rem;
+    border: 2px solid blue;
+
+
+}
+
+.r-side {
+    display: inline;
+    color: white;
+    width: 20%;
+    margin-left: -65px;
+    border: 5px solid white;
+    background-color: #232323;
+    padding: 30px;
+    border-radius: 30px;
+    
+    
+
+}
+
+.r-side > h3 {
+    font-weight: 200;
+}
+
+.r-side > p {
+    margin-top: -1.5%;
+}
+
+#total {
+    font-size: 50px;
+}
+
+em {
+    color: rgb(174, 188, 219);
+    font-weight: 50;
+}
+
+.outside-div {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    color:white;
+}
+
+
+.deposit-button {
+    padding: 10px;
+    color: white;
+    background-color: rgb(174, 188, 219); 
+    border-radius: 5px;
+    border: 0;
+    margin-top: 6px;
+}
+
+.withdrawl-button {
+    padding: 10px;
+    color: white;
+    background-color: #232323; 
+    border-radius: 5px;
+    border: 0;
+}
+
+.down-arrow {
+    color: #ff0040;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 2px;
+    width: 20%;
+    font-size: 12px;
+}
+
+.my-cards-container {
+    width: 35%;
+    color: white;
+}
+
+.my-cards-inner {
+    display:flex;
+    flex-wrap: wrap;
+    
+    padding: 9px;
+}
+
+.card-img {
+
+    width: 400px;
+    padding: 1rem;
+    height: 230px;
+    background-color: royalblue;
+    border-radius: 15px;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+    margin-left: 85%;
+    margin-top: -150px;
+}
+
+
+.name-border {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-top: 40%;
+}
+
+.none {
+    margin: 0 auto;
+    display: block;
+}
+
+
+
+
+.r-ads {
+    height: 100%;
+    width: 30%;
+    margin-left: 12%;
+    color: white;
+
+    border-radius: 30px;
+
+}
+
+.sec-img {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+
+}
+
+.none-stock {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+
+}
+
+.none-stock-two {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    
+    
+}
+
+
+.p-info {
+    margin-top: -30%; 
+    padding: 15px;
+
+    font-size: large;
+
+}
+
+
+.ico-log {
+    margin-left: 48.5%;
+}
+
+.name-border > a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 10%;
+    border: 2px solid white;
+    padding: 3px;
+}

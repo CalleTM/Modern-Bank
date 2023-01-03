@@ -1,0 +1,395 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+    color: white;
+   
+   
+
+    /*align-items: center;*/
+}
+
+body {
+    
+    background-image: url(/images/Waves.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 600px;
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    height: 800px;
+
+    width: 100%;
+    /*border: 5px solid black;*/
+    align-items: center;
+    
+}
+
+/*==== LEFT CONTENT STYLING ====*/
+
+.leftContent {
+    
+    padding: 2rem; 
+    width: 50%;
+}
+
+.leftContent > h1{
+    font-size: 60px;
+}
+
+.leftContent > h1 > span {
+    color: rgb(185 200 234);
+}
+
+.Dark-Button {
+    text-decoration-line: none;
+    background-color: rgb(174, 188, 219); 
+    border-radius: 29px; 
+    border: 1px solid rgb(174, 188, 219);  
+    font-size: 15px; 
+    padding: 10px 45px; 
+    cursor: pointer; 
+    transition: 0.3s; 
+    font-size: large;
+    color: whitesmoke;
+}
+
+ .Dark-Button:hover {
+    background-color: white; 
+    color: #081F2D; 
+    border-color: #081F2D; 
+    transition: 0.3s; 
+}
+/*==== LEFT CONTENT STYLING END ====*/
+
+/*BUTTON STYLES*/
+
+/*GET STARTED BUTTON STYLE*/
+
+/* ======== HEADER LEFT =======*/
+
+
+header {
+    
+    width: 50%;
+    background-color: black;
+}
+
+
+header > ul  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    gap: 30px;
+  
+}
+
+header > ul > li {
+    display: block;
+    font-size: large;
+    font-weight: bold;
+  
+}
+
+header > ul > li > a > img {
+    height: 80px;
+}
+
+p {
+    font-size: large;
+    font-style: italic;
+    color: rgb(179, 179, 179);
+}
+
+/*======== HEADER RIGHT =========*/
+nav {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 50%;
+    font-weight: bold;
+    background-color: black;
+    gap:10px;
+}
+
+nav > a {
+   align-items: center;
+}
+
+.rightContent {
+    width:50%;    
+    
+}
+
+ /* CARD CSS STARTS HERE */
+ .card-group {
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .card {
+    
+    position:relative;
+    height: 270px;
+    width: 450px;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(30px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+  
+  .logoCard img,
+  .chip img,
+  .number,
+  .name,
+  .from,
+  .to,
+  .ring {
+    position: absolute; /* All items inside card should have absolute position */
+  }
+  
+  .logoCard img {
+    top: 35px;
+    right: 40px;
+    width: 80px;
+    height: auto;
+    opacity: 0.8;
+  }
+  
+  .chip img {
+    top: 120px;
+    left: 40px;
+    width: 50px;
+    height: auto;
+    opacity: .8;
+  }
+  
+  .number,
+  .name,
+  .from,
+  .to {
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
+  }
+  
+  .number {
+    left: 40px;
+    bottom: 65px;
+    font-family: "Nunito", sans-serif;
+  }
+  
+  .name {
+    font-size: 0.5rem;
+    left: 40px;
+    bottom: 35px;
+  }
+  
+  .from {
+    font-size: 0.5rem;
+    bottom: 35px;
+    right: 110px;
+  }
+  
+  .to {
+    font-size: 0.5rem;
+    bottom: 35px;
+    right: 40px;
+  }
+  
+  /*  Testing Section 
+
+  Magic card*/
+.card2 {
+  background: rgba( 255, 255, 255, 0.3 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 9.5px );
+  -webkit-backdrop-filter: blur( 9.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  width: 350px;
+  height: 290px;
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+ }
+ 
+ .card-info2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+  padding: 0 1rem;
+  
+  
+ }
+ 
+ .card-img2 {
+  position: relative;
+  top: -15%;
+
+ }
+ .card-img2 > img {
+  height: 50%;
+  
+ }
+
+ /*Text*/
+ .text-title2 {
+  text-transform: uppercase;
+  font-size: 0.75em;
+  color: #42caff;
+  letter-spacing: 0.05rem;
+ }
+ 
+ .text-body2 {
+  font-size: .8em;
+  font-size: larger;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  font-style: italic;
+  margin-top: -60%;
+ }
+ 
+ /*Hover*/
+ .card2:hover .card-img2 > img{
+  --size: 100%;
+  width: var(--size);
+  height: 80%;
+  
+
+ }
+
+ .card2:hover .card-info2{
+  visibility: visible;
+ }
+
+.second-half {
+ background: url(/images/polygon.png);
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 1000px;
+  gap: 1rem;
+  justify-content: center;
+  
+}
+
+
+
+
+
+
+
+.line {
+  display: flex;
+  width: 80%;
+  border-top:1px solid white ;
+  opacity: 40%;
+  margin-top: 5%;
+
+}
+
+.AboutUs-Head{
+ 
+  width: 100%;
+  text-align: center;
+ 
+}
+
+
+/*Third Page Content*/
+
+.Third-Section{
+ background: url(/images/ThirdPG.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  
+}
+
+.leftSide{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftSide > img {
+  height: 100%;
+  width: 100% ;
+}
+
+.rightSide{
+  background: url(/images/TripleCrypto.svg);
+  background-repeat: no-repeat;
+  background-size: small;
+  background-position: right;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.rightSide > h1 {
+  color: rgb(174, 188, 219);
+  font-size: 70px;
+
+}
+.p3{
+color: white;
+width: 30%;
+font-size: 25px;
+font-family: sans-serif;
+font-weight: 100;
+}
+
+
+
+
+
+.fourthPG{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 20%;
+  background:url(/images/layered-peaks-haikei.png);
+
+  background-size: contain;
+}
+
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  height: 50%;
+  
+}
+
+.footer > ul{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 60px;
+
+}
